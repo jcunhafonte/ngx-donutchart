@@ -1,0 +1,30 @@
+{
+  "name": "ngx-donutchart",
+  "description": "ngx-donutchart is an Angular component built with _TypeScript_, _HTML5_ and _Angular >= 4_. It is an Angular component for presenting donut charts in a light package with no external dependencies. The chart just consume your data and doesn't make any assumptions about your datastructure or how you handle it.",
+  "homepage": "https://github.com/jcunhafonte/ngx-donutchart#readme",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcunhafonte/ngx-donutchart"
+  },
+  "author": {
+    "name": "José Cunha Fonte",
+    "email": "jcunhafonte@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcunhafonte/ngx-donutchart/issues"
+  },
+  "main": "ngx-donutchart.umd.js",
+  "module": "ngx-donutchart.js",
+  "jsnext:main": "ngx-donutchart.js",
+  "typings": "ngx-donutchart.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

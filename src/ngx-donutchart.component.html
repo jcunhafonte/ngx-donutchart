@@ -1,0 +1,19 @@
+<svg #donutChart
+     [attr.data-automation]="getDataAutomationSelector('donut-chart')"
+     [attr.viewBox]="getViewBox()"
+     [attr.width]="getPXSize()"
+     [attr.height]="getPXSize()">
+    <text *ngIf="getTitle()"
+          x="50%"
+          y="50%"
+          text-anchor="middle">{{getTitle()}}</text>
+    <ng-container *ngFor="let slice of slices; trackBy: trackByFn; let i = index;">
+        <path *ngIf="canRenderPath(slice)"
+              [attr.data-automation]="getDataAutomationSelector('donut-chart-path', i)"
+              [attr.d]="getPathData(slice)"
+              [attr.fill]="getPathFill(slice)"
+              (mouseenter)="handleMouseEnter(slice)"
+              (mouseleave)="handleMouseLeave()">
+        </path>
+    </ng-container>
+</svg>

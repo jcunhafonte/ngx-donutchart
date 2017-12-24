@@ -2,7 +2,7 @@
 
 `ngx-donutchart` is an Angular component built with _TypeScript_, _HTML5_ and _Angular >= 4_. It is an Angular component for presenting donut charts in a light package with no external dependencies. The chart just consume your data and doesn't make any assumptions about your datastructure or how you handle it.
 
-![alt text](https://github.com/jcunhafonte/ngx-donutchart/blob/master/src/preview.png)
+![Preview](https://github.com/jcunhafonte/ngx-donutchart/blob/master/src/preview.png)
 
 ## Features
 - Handle large data sets (Virtual DOM)

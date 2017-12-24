@@ -2,6 +2,8 @@
 
 `ngx-donutchart` is an Angular component built with _TypeScript_, _HTML5_ and _Angular >= 4_. It is an Angular component for presenting donut charts in a light package with no external dependencies. The chart just consume your data and doesn't make any assumptions about your datastructure or how you handle it.
 
+![alt text](https://github.com/jcunhafonte/ngx-donutchart/blob/master/src/preview.png)
+
 ## Features
 - Handle large data sets (Virtual DOM)
 - Easy configuration and manipulation
@@ -46,7 +48,9 @@ export class AppModule {
 Configure the chart and add it into the template by registering <i>slices</i>, <i>size</i> and <i>innerRadius</i> property.
     
 ```typescript
-slices: NgXDonutChartSlice[] | any[] = [
+import {NgXDonutChartSlice} from 'ngx-donutchart/ngx-donutchart.type';
+
+slices: NgXDonutChartSlice[] | any[] = [ // exported type
     {
       value: 1,
       color: 'red'
@@ -102,7 +106,7 @@ Add them as outputs to listen the events.
 })
 ```
 
-Optionally, you add a title to the middle of your component by registering <i>title</i>:
+Optionally you can add a title to the middle of your component by registering <i>title</i>:
 ```typescript
 @Component({
     template: `

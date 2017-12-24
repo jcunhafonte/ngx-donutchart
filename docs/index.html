@@ -1,0 +1,368 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ngx-donutchart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">ngx-donutchart</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">ngx-donutchart</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="./overview.html" 
+                                         href="./overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/NgXDonutChartModule.html" >NgXDonutChartModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/NgXDonutChartComponent.html" >NgXDonutChartComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">ngx-donutchart</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="./overview.html" 
+                                                href="./overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/NgXDonutChartModule.html" >NgXDonutChartModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/NgXDonutChartComponent.html" >NgXDonutChartComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="ngx-donutchart">ngx-donutchart</h1>
+<p><code>ngx-donutchart</code> is an Angular component built with <em>TypeScript</em>, <em>HTML5</em> and <em>Angular &gt;= 4</em>. It is an Angular component for presenting donut charts in a light package with no external dependencies. The chart just consume your data and doesn&#39;t make any assumptions about your datastructure or how you handle it.</p>
+<p><img src="https://github.com/jcunhafonte/ngx-donutchart/blob/master/src/preview.png" alt="alt text" class="img-responsive"></p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Handle large data sets (Virtual DOM)</li>
+<li>Easy configuration and manipulation</li>
+<li>Light codebase / No external dependencies</li>
+<li>Easy selectors for testing purposes</li>
+<li>AoT compilation support</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>All you need to do is to run the following command:</p>
+<pre class="line-numbers"><code class="language-bash">$ npm install ngx-donutchart --save</code></pre><h2 id="usage">Usage</h2>
+<p>Import ngx-donutchart directives into your component:</p>
+<pre class="line-numbers"><code class="language-typescript">import {NgModule} from &#39;&#64;angular/core&#39;;
+
+...
+
+import {NgXDonutChartModule} from &#39;ngx-donutchart&#39;;</code></pre><p>Register it by adding to the list of directives of your module:</p>
+<pre class="line-numbers"><code class="language-typescript">&#64;NgModule({
+  imports: [
+    ...
+    NgXDonutChartModule
+  ],
+  ...
+})
+export class AppModule {
+}</code></pre><p>Configure the chart and add it into the template by registering <i>slices</i>, <i>size</i> and <i>innerRadius</i> property.</p>
+<pre class="line-numbers"><code class="language-typescript">import {NgXDonutChartSlice} from &#39;ngx-donutchart/ngx-donutchart.type&#39;;
+
+slices: NgXDonutChartSlice[] | any[] = [ // exported type
+    {
+      value: 1,
+      color: &#39;red&#39;
+    },
+    {
+      value: 2,
+      color: &#39;green&#39;
+    },
+    {
+      value: 3,
+      color: &#39;blue&#39;
+    }
+];
+
+size = 170;
+
+innerRadius = 60</code></pre><p>Add ngx-donutchart component inside to the template:</p>
+<pre class="line-numbers"><code class="language-typescript">// ...
+
+&#64;Component({
+    template: `
+    &lt;ngx-donutchart 
+        [slices]=&quot;slices&quot;
+        [size]=&quot;size&quot;
+        [innerRadius]=&quot;innerRadius&quot;&gt;
+    &lt;/ngx-donutchart&gt;
+    `
+})
+// ...</code></pre><p>Now you have some slices in your donut chart.</p>
+<p>The event available with this component is:</p>
+<ul>
+<li>onSliceHover</li>
+</ul>
+<p>Add them as outputs to listen the events.</p>
+<pre class="line-numbers"><code class="language-typescript">&#64;Component({
+    template: `
+    &lt;ngx-donutchart 
+        [slices]=&quot;slices&quot;
+        [size]=&quot;size&quot;
+        [onSliceHover]=&quot;...($event)&quot;&gt;
+    &lt;/ngx-donutchart&gt;
+    `
+})</code></pre><p>Optionally you can add a title to the middle of your component by registering <i>title</i>:</p>
+<pre class="line-numbers"><code class="language-typescript">&#64;Component({
+    template: `
+    &lt;ngx-donutchart 
+        [title]=&quot;&#39;NgXDonutChart&#39;&quot;
+        [slices]=&quot;slices&quot;
+        [size]=&quot;size&quot;
+        [onSliceHover]=&quot;...($event)&quot;&gt;
+    &lt;/ngx-donutchart&gt;
+    `
+})</code></pre><h2 id="license">License</h2>
+<p>MIT © <a href="mailto:jcunhafonte@gmail.com">jcunhafonte</a></p>
+<p>Built with :heart: by <a href="https://jcunhafonte.com">jcunhafonte</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>
